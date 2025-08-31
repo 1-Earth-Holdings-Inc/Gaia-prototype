@@ -1,8 +1,8 @@
 import { Geist, Geist_Mono, Playfair_Display, MedievalSharp, UnifrakturMaguntia, UnifrakturCook } from "next/font/google";
 import "./globals.css";
-import { AuthProvider } from "@/context/AuthContext";
-import Navbar from "@/components/Navbar";
-import ProfileSidebar from "@/components/ProfileSidebar";
+import { AuthProvider } from "@/shared/context/AuthContext";
+import Navbar from "@/shared/components/Navbar";
+import ProfileSidebar from "@/shared/components/ProfileSidebar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
