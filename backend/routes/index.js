@@ -50,6 +50,9 @@ const setupApiRoutes = (app) => {
   // User management routes
   app.use(`${config.API_PREFIX}/user`, require('./user'));
   
+  // Countries/GeoJSON data routes
+  app.use(`${config.API_PREFIX}/countries`, require('./countries'));
+  
   // Add more route modules here as the application grows
   // app.use(`${config.API_PREFIX}/admin`, require('./admin'));
   // app.use(`${config.API_PREFIX}/analytics`, require('./analytics'));
